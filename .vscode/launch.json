@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+             "name": "长安 质量",
+            "type": "debugpy",
+            "request": "launch",
+            // 此处的python路线应当设置为本机的对应版本python目录
+            "python":"D:\\Users\\31505\\miniconda3\\envs\\prt_twin\\python.exe",//nanh python路径路径
+            // "python":"F:\\Users\\31505\\miniconda3\\python.exe",//505 python路径
+            "program": "${file}",
+            "console": "internalConsole",//"internalConsole"
+            "justMyCode":true
+        },
+    ]
+}

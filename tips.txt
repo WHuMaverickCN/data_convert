@@ -1,0 +1,2 @@
+1、data_convert.py和utils.py的依赖关系有问题，应用此目录的脚本替换原始文件；
+2、需要安装protobuf_to_dict包，此包有版本以来问题，需要用本目录下protobuf_to_dict.py替换同名源代码文件（protobuf_to_dict.py），通常应当在“F:\anaconda\envs\你的环境名称\Lib\site-packages”目录处
